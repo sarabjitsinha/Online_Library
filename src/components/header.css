@@ -1,0 +1,39 @@
+nav{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+    }
+
+li{
+    margin: 20px;
+}  
+
+.head{
+    height: 50px;
+    width: 100vw;
+    /* position: fixed; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.toggler {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+Link{
+    text-decoration-style: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.linkel{
+    text-decoration: none;
+    
+}

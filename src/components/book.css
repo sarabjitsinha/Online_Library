@@ -1,0 +1,26 @@
+.displaybrowse{
+        width: 275px;
+        
+}
+
+.browsebook{
+    display: inline-flex;
+    flex-direction: row;
+   }
+
+ .imgbk {
+    height: 150px;
+    width: 200px;
+ }  
+
+ .detail{
+        border: 2px solid orange;
+        justify-self: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: medium;        
+ }
+
+ .cat{
+        display: flex;
+        flex-wrap: wrap;
+ }

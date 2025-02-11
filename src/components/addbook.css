@@ -1,0 +1,36 @@
+.formel{
+    height: 70%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;    
+    flex-wrap: wrap;
+}
+
+.formdiv{
+    height: 69vh;
+    width: 100vw;
+    margin: auto;
+}
+
+ .labeldiv{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+label{
+    width: 150px;
+}
+
+.formsub{
+    width: 25%;
+    align-self: center;
+    margin: 15px;
+    background-color: rgb(46, 194, 145);
+    border-radius: 15px;
+}
+
+.labeldiv input:focus{
+    outline: 2px solid blue;
+}

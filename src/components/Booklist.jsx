@@ -45,7 +45,7 @@ function Booklist(){
                 <option value="Mythology">Mythology</option>
                 <option value="Sci-fi">Sci-fi</option>
              </select>
-                {/* {catval=="All" ? navigate('/browse'):navigate(`/books/${catval}`)} */}
+               
              </section>
              <section className="newad">
              {(newadd.length>50) && newarr.map((book)=>{

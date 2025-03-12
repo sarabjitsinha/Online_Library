@@ -11,8 +11,8 @@ li{
 
 .head{
     height: 50px;
-    width: 100vw;
-    /* position: fixed; */
+    width: 95vw;
+    margin-bottom:30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

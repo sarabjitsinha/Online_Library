@@ -8,7 +8,9 @@ import "@reduxjs/toolkit"
 import appStore from "./Utils/appStore";
 
 function App(){
-  let obj={textAlign:"center"}
+  let obj={textAlign:"center",
+    top:"25px"
+  }
 
 return(
 
@@ -17,12 +19,11 @@ return(
     <main>
       <Provider store={appStore}>
       <Header/>
-     
-      
+         
      <h2 style={obj}>Welcome to the online Library</h2>
      
      <Outlet/>
-    
+     
      </Provider>
     </main>
    

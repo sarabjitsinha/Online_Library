@@ -19,7 +19,7 @@ const bookInlib=useSelector((store)=>store.book.items)
             <li> <Link to="/" className="linkel">Home</Link></li>
             <li><Link to="/browse" className="linkel">Browse Books</Link></li>
             <li> <Link to="/addbook" className="linkel">Add Books</Link></li>
-            <li> Total books in Library  {bookInlib.length}</li>
+            <li> Books in Library  {bookInlib.length}</li>
         </nav>
         <button type="submit" className="toggler" onClick={handletheme}>Toggle Theme</button>
         </header>

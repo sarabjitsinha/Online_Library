@@ -89,7 +89,7 @@ function Addbook(){
         <div>
         <div className="formdiv">
             <form action="" className="formel" onSubmit={(e)=>{e.preventDefault();
-                //  setbookdata([...bookdata,inputdata]);
+               
                if((author)&& (title) && (category) && (year))
                 { navigate('/browse');}
                else{
